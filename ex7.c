@@ -11,9 +11,9 @@ int main(int argc, char *argv[])
     printf("You are %d miles away \n", distance);
     printf("You have %f levels of power \n", power);
     printf("You have %f super powers \n", super_power);
-    printf("I have an initial %c \n", initial); 
-    printf("I have a first name %s \n", first_name);
-    printf("I have a last name %s \n", last_name);
+    printf("I have an initial of %c \n", initial); 
+    printf("I have a first name of %s \n", first_name);
+    printf("I have a last name of %s \n", last_name);
     printf("My whole name is %s %c %s \n", first_name, initial, last_name); 
 
     int bugs = 100; 
