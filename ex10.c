@@ -7,6 +7,7 @@ int main(int argc, char *argv[]) {
         return 1; 
     }
     int i = 0; 
+    // The line below goes through the string until it reaches the last byte, a null digit signified by '\0' 
     for (i = 0; argv[1][i] != '\0'; i++){
         char letter = argv[1][i]; 
 
