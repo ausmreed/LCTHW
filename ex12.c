@@ -27,7 +27,13 @@ int main(int argc, char *argv[])
     printf("The next letter is: %c \n", austin[i]);
     i++;
   }
-  printf("The number of characters in the name is %ld \n", sizeof(austin)/sizeof(char)); 
+  printf("The number of characters in the name is %ld \n", sizeof(austin)/sizeof(char));
+
+
+  printf("Now do this with a for loop \n");
+  for (i = 0; i < 6; i++) {
+    printf("The next character is: \"%c\" \n", austin[i]);
+  }
   return 0;
 
 }
