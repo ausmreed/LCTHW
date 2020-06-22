@@ -17,5 +17,17 @@ int main(int argc, char *argv[])
   printf("The number of chars: %ld \n", sizeof(name)/sizeof(char));
 
   printf("name=\"%s\" and full_name=\"%s\"\n", name, full_name);
+
+  char austin[] = {
+    'A','u','s','t','i','n','\0'
+  };
+  printf("We will print the name 'Austin' vertically \n");
+  int i = 0;
+  while (i < 6) {
+    printf("The next letter is: %c \n", austin[i]);
+    i++;
+  }
+  printf("The number of characters in the name is %ld \n", sizeof(austin)/sizeof(char)); 
   return 0;
+
 }
